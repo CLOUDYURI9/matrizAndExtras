@@ -17,7 +17,7 @@ for (let i = 0; i < 6; i++) {
         let numero: number = parseInt(teclado(`Digite o número que vai estar no endereço[${i}, ${j}]da matriz: `));
         matrizDois[i][j] = numero;
 
-        if (j == 0 || j == 2 || j == 4) {
+        if (j % 2 == 0) {
             resultado += matrizDois[i][j];
         }
     }
