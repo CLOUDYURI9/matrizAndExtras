@@ -12,8 +12,16 @@ for (var x = 1; x <= 10; x++) {
     media += array[x];
 }
 media /= 10;
+var j = 0;
 for (var i = 1; i <= 10; i++) {
     if (array[i] == media) {
         console.log("O valor ".concat(array[i], " localizado no espa\u00E7o ").concat(i, ", \u00E9 o mesmo da m\u00E9dia das notas, a m\u00E9dia dos valores \u00E9 ").concat(media, "."));
     }
+    if (media != array[i]) {
+        j++;
+    }
+    if (j == 1) {
+        console.log("Nenhuma das notas \u00E9 igual a m\u00E9dia");
+    }
 }
+
