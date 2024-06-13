@@ -19,10 +19,10 @@ let menor: number = array[0];
 
 for (let y = 0; y <= 9; y++) {
     if (array[y] > maior) {
-        maior = array[y]
+        maior = array[y];
     }
     if (array[y] < menor) {
-        menor = array[y]
+        menor = array[y];
     }
     else { }
 }
