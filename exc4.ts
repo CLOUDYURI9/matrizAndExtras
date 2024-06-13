@@ -21,7 +21,7 @@ for (let i = 0; i < 3; i++) {
         // Atribuição via entrada de dados manual na variavel nome
         let numero : number = parseInt(teclado(`Digite o número que vai estar no endereço[${ i }, ${ j }]da matriz: `));
     // Atribui nome na minhaMatriz do endereço dado por iej matrizDois[i][j] = nome;
-        matrizDois[i][j] = numero 
+        matrizDois[i][j] = numero ;
     }
 }    
     // Imprime a matriz
