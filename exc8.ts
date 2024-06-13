@@ -16,7 +16,7 @@ for (let i = 0; i < 4; i++) {
 
     matrizDois[i] = new Array(4);
     for (let j = 0; j < 4; j++) {
-        matrizDois[i][j] = (Math.floor(Math.random() * 20))
+        matrizDois[i][j] = (Math.floor(Math.random() * 20));
         if (matrizDois[i][j] > maior) {
             maior = matrizDois[i][j];
             coluna = j;
