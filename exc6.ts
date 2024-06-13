@@ -13,10 +13,10 @@ for (let i = 0; i < 3; i++) {
     for (let j = 0; j < 3; j++) {
         let numero : number = parseInt(teclado(`Digite o número que vai estar no endereço[${ i }, ${ j }]da matriz: `));
         if( numero >= 0 && numero < 10){
-            matrizDois[i][j] = numero 
+            matrizDois[i][j] = numero; 
         }
         else{
-            console.log(`Insira números somente de 0 a 9`)
+            console.log(`Insira números somente de 0 a 9`);
             j--
         }   
     }
